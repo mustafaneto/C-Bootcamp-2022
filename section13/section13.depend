@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1655420395 source:c:\users\musta\Área de trabalho\cursos\c_programming_2022\section13\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
