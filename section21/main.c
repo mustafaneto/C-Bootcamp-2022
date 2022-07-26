@@ -18,11 +18,13 @@ int main()
     int a = 5;
     int *p;
     p = &a;
+    *p = 51;
 
     printf("%p\n", &a);
     printf("%p\n", p);
-    printf("%d ", *p);
-
+    printf("%d\n", *p);
+    printf("%d ", &a);
+/*
     //-------------------------------
 
     int grade1=80, grade2=90;
@@ -42,7 +44,6 @@ int main()
     printf("The maximum value is: %d\n", max);
     printf("The minimum value is: %d\n", min);
 
-
-
+*/
     return 0;
 }
